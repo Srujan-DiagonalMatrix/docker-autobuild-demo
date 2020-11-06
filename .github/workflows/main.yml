@@ -30,4 +30,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run dockerfile
         run: |
-          docker build ./blob/main/Dockerfile -t nginx:alpine
+          docker build Dockerfile -t nginx:alpine
